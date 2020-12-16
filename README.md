@@ -1,37 +1,95 @@
-## Welcome to GitHub Pages
+## Welcome To HDE ( Html Discord Embeds )
 
-You can use the [editor on GitHub](https://github.com/small-Hayoola/hde/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Instalation 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+```
+<link rel="stylesheet" href="https://small-hayoola.github.io/hde/main.css">
+```
+### Examples
 
-# Header 1
-## Header 2
-### Header 3
+# simple embed
 
-- Bulleted
-- List
+wrap all your data in a `discord-embed` div .
+image width is customizable . change it by changing your img width tag
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+<div class="discord-embed">
+        
+        <p class="author">YouTube</p>
+     
+        <p href="#" class="embed-title">apple<p>
+        <p class="embed-link">iPhone 12 showcase</p>
+        <img src="https://i2.wp.com/arenait.ro/files/2020/06/iphone-12-pro-concept.jpg?fit=1200%2C675&quality=100&strip=all&ssl=1" class="embed-image" width="510px">
+        
+    </div>
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+![Image](https://small-hayoola.github.io/hde/simpleEmbed.png)
 
-### Jekyll Themes
+# author with image
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/small-Hayoola/hde/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+to use it instead of `author` class use `embed-author`. you'll need an image and a p tag . ( img tag for author image and p tag for author content )
 
-### Support or Contact
+```
+<div class="discord-embed">
+        <div class="embed-author">
+            <img src="https://media-exp1.licdn.com/dms/image/C560BAQHdAaarsO-eyA/company-logo_200_200/0/1595530301220?e=2159024400&v=beta&t=IJmg_K1W7KCh6082rXN9V7gzlrD9GMwYqk_EjCrDxGw">
+            <p>apple</p>
+        </div>
+        <p class="embed-title">YouTube<p></p>
+     
+        
+        <p class="embed-link">iPhone 12 showcase</p>
+        <img src="https://i2.wp.com/arenait.ro/files/2020/06/iphone-12-pro-concept.jpg?fit=1200%2C675&quality=100&strip=all&ssl=1" class="embed-image" width="510px">
+        
+    </div>
+```
+ ![Image](https://small-hayoola.github.io/hde/authorWimg.png)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+# an embed with fields
+
+to use fields in your embed you'll need a `fields` div
+then you can put your fields in it by putting `field` divs
+each field div should contain a `h4` and a `p` tag in it ( h4 is the feild title and p is the feild description )
+
+```
+<div class="discord-embed">
+        <div class="embed-author">
+            <img src="https://media-exp1.licdn.com/dms/image/C560BAQHdAaarsO-eyA/company-logo_200_200/0/1595530301220?e=2159024400&v=beta&t=IJmg_K1W7KCh6082rXN9V7gzlrD9GMwYqk_EjCrDxGw">
+            <p>apple</p>
+        </div>
+        <p class="embed-title">Apple Products<p>
+        <div class="fields">
+            <div class="field">
+                <h4>iPhones</h4>
+                <p>iPhone 12 , Our New iPhone</p>
+            </div>
+            <div class="field">
+                <h4>iPhones</h4>
+                <p>iPhone 12 , Our New iPhone</p>
+            </div>
+            <div class="field">
+                <h4>iPhones</h4>
+                <p>iPhone 12 , Our New iPhone</p>
+            </div>
+            <div class="field">
+                <h4>iPhones</h4>
+                <p>iPhone 12 , Our New iPhone</p>
+            </div>
+        </div>     
+    </div>
+```
+
+![Image](https://raw.githubusercontent.com/small-Hayoola/hde/main/embedWfeild.png)
+
+
+# Embed Color
+
+to change your embed color put `color-<colorName>` after your `discord-embed` class
+### all colors 
+`color-blue` , `color-w` , `color-green` , `color-pink` , `color-yellow`
+default color is red
