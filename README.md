@@ -15,7 +15,7 @@
 wrap all your data in a `discord-embed` div .
 image width is customizable . change it by changing your img width tag
 
-```
+```html
 <div class="discord-embed">
         
         <p class="author">YouTube</p>
@@ -33,7 +33,7 @@ image width is customizable . change it by changing your img width tag
 
 to use it instead of `author` class use `embed-author`. you'll need an image and a p tag . ( img tag for author image and p tag for author content )
 
-```
+```html
 <div class="discord-embed">
         <div class="embed-author">
             <img src="https://media-exp1.licdn.com/dms/image/C560BAQHdAaarsO-eyA/company-logo_200_200/0/1595530301220?e=2159024400&v=beta&t=IJmg_K1W7KCh6082rXN9V7gzlrD9GMwYqk_EjCrDxGw">
@@ -56,7 +56,7 @@ to use fields in your embed you'll need a `fields` div
 then you can put your fields in it by putting `field` divs
 each field div should contain a `h4` and a `p` tag in it ( h4 is the feild title and p is the feild description )
 
-```
+```html
 <div class="discord-embed">
         <div class="embed-author">
             <img src="https://media-exp1.licdn.com/dms/image/C560BAQHdAaarsO-eyA/company-logo_200_200/0/1595530301220?e=2159024400&v=beta&t=IJmg_K1W7KCh6082rXN9V7gzlrD9GMwYqk_EjCrDxGw">
