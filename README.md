@@ -2,7 +2,7 @@
 
 
 
-### Instalation 
+### Installation 
 
 
 ```
