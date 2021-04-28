@@ -17,14 +17,11 @@ image width is customizable . change it by changing your img width tag
 
 ```html
 <div class="discord-embed">
-        
         <p class="author">YouTube</p>
-     
         <p href="#" class="embed-title">apple<p>
         <p class="embed-link">iPhone 12 showcase</p>
-        <img src="https://i2.wp.com/arenait.ro/files/2020/06/iphone-12-pro-concept.jpg?fit=1200%2C675&quality=100&strip=all&ssl=1" class="embed-image" width="510px">
-        
-    </div>
+        <img src="https://i2.wp.com/arenait.ro/files/2020/06/iphone-12-pro-concept.jpg?fit=1200%2C675&quality=100&strip=all&ssl=1" class="embed-image" width="510px">        
+</div>
 ```
 
 ![Image](https://small-hayoola.github.io/hde/simpleEmbed.png)
@@ -40,12 +37,9 @@ to use it instead of `author` class use `embed-author`. you'll need an image and
             <p>apple</p>
         </div>
         <p class="embed-title">YouTube<p></p>
-     
-        
         <p class="embed-link">iPhone 12 showcase</p>
-        <img src="https://i2.wp.com/arenait.ro/files/2020/06/iphone-12-pro-concept.jpg?fit=1200%2C675&quality=100&strip=all&ssl=1" class="embed-image" width="510px">
-        
-    </div>
+        <img src="https://i2.wp.com/arenait.ro/files/2020/06/iphone-12-pro-concept.jpg?fit=1200%2C675&quality=100&strip=all&ssl=1" class="embed-image" width="510px">        
+</div>
 ```
  ![Image](https://small-hayoola.github.io/hde/authorWimg.png)
 
